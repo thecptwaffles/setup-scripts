@@ -4,4 +4,4 @@
 
 echo "$(tput setaf 36)Your apps are installed"
 
-echo "$(tput setaf 36)Have fun 😃"
+echo "$(tput setaf 36)Have fun!"
