@@ -1,6 +1,5 @@
 #!/bin/bash
-# update the system
-sudo pacman -Syu
+
 
 # Install zsh
 sudo pacman -Sy zsh
@@ -9,9 +8,11 @@ sudo pacman -Sy zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 #git clone config files repo
+
 git clone https://github.com/thecptwaffles/dotFiles.git
 
 #move dotFiles to ~/.config/
+
 mv ~/dotFiles/coc/ ~/.config/
 mv ~/dotFiles/nvim/ ~/.config/
 mv ~/dotFiles/vifm/ ~/.config/

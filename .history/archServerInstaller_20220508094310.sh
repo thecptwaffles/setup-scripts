@@ -12,6 +12,7 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 git clone https://github.com/thecptwaffles/dotFiles.git
 
 #move dotFiles to ~/.config/
+
 mv ~/dotFiles/coc/ ~/.config/
 mv ~/dotFiles/nvim/ ~/.config/
 mv ~/dotFiles/vifm/ ~/.config/
