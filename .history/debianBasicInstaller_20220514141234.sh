@@ -1,9 +1,8 @@
-#!/bin/bash
-# update the system
-sudo pacman -Syu
+#update the system
+sudo apt update && sudo apt upgrade 
 
-# Install zsh
-sudo pacman -Sy zsh
+#install zsh
+sudo apt install zsh
 
 #Install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
@@ -19,15 +18,15 @@ mv ~/dotFiles/wslu/ ~/.config/
 mv ~/dotFiles/.zshrc ~
 
 #install open-jdk 17 and open-jre 17
-sudo pacman -Sy openjdk-17 openjre-17
+sudo apt install openjdk-17 openjre-17
 
-#install neofetch neovim vifm flatpak
-sudo pacman -Sy neofetch neovim vifm flatpak
+#install flatpak
+sudo apt install flatpak
 
 #install minecraft from flatpak
 flatpak install flathub com.mojang.minecraft
 
 #install gimp minecraft steam discord and firefox
-sudo pacman -Sy gimp steam discord firefox
+sudo apt install gimp steam discord firefox
 
 
